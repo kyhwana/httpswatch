@@ -1,0 +1,454 @@
+{
+    "categories": [
+        {
+            "name": "News",
+            "linkname": "news",
+            "sites": [
+                {
+                    "name": "Stuff",
+                    "domain": "www.stuff.co.nz"
+                },
+                {
+                
+                    "name": "NZ Herald",
+                    "domain": "www.nzherald.co.nz"
+                },
+		{
+			"name": "Scoop",
+			"domain": "www.scoop.co.nz"
+		},
+		{
+                                "name": "3news",
+                                "domain": "www.3news.co.nz"
+                        },
+		{
+                                "name": "TVNZ",
+                                "domain": "tvnz.co.nz"
+                        },
+		{
+                                "name": "Radio NZ",
+                                "domain": "www.radionz.co.nz"
+                        },
+		{
+                                "name": "NBR",
+                                "domain": "www.nbr.co.nz"
+                        }
+
+            ] 
+        }, 
+        {
+            "name": "Universities",
+            "linkname": "universities",
+            "sites": [
+                {
+                    "name": "AUT",
+                    "domain": "www.aut.ac.nz"
+                },
+		{
+		    "name": "University of Otago",
+                    "domain": "www.otago.ac.nz"
+                },
+		{
+			"name": "Waikato University",
+			"domain": "www.waikato.ac.nz"
+		},
+		{
+                        "name": "Massey University",
+                        "domain": "massey.ac.nz"
+                },
+		{
+                        "name": "Auckland University",
+                        "domain": "www.auckland.ac.nz"
+                },
+		{
+                        "name": "Victoria University",
+                        "domain": "www.victoria.ac.nz"
+                },
+		{
+                        "name": "Canterbury University",
+                        "domain": "www.canterbury.ac.nz"
+                }
+            ]
+	},
+        {
+            "name": "NZ Government",
+            "linkname": "nzgov",
+            "sites": [
+                {
+                    "name": "NZ government",
+                    "domain": "www.govt.nz"
+                },
+                {
+                    "name": "Internal Revenue Deperatment",
+                    "domain": "www.ird.govt.nz"
+                },
+		{
+                                "name": "Immigration NZ",
+                                "domain": "www.immigration.govt.nz"
+                },
+		{
+                                "name": "Data NZ",
+                                "domain": "data.govt.nz"
+                        },
+		{
+                                "name": "Customs",
+                                "domain": "www.customs.govt.nz"
+                        },
+		{
+                                "name": "GCSB",
+                                "domain": "www.GCSB.govt.nz"
+                        },
+		{
+                                "name": "NZ Defence Force",
+                                "domain": "www.nzdf.mil.nz"
+                        },
+		{
+                                "name": "NZ SIS",
+                                "domain": "nzsis.govt.nz"
+                        },
+		{
+                                "name": "NZTA",
+                                "domain": "nzta.govt.nz"
+                        },
+		   {
+                                "name": "Auckland Transport",
+                                "domain": "at.govt.nz"
+                        },
+			 {
+                                "name": "Real Me (DIA)",
+                                "domain": "www.realme.govt.nz"
+                        }
+
+
+            ]
+        },
+	{
+		"name": "NZ Banks",
+		"linkname": "nzbanks",
+		"sites": [
+			{
+				"name": "Kiwibank",
+				"domain": "www.kiwibank.co.nz"
+			},
+			{
+				"name": "ASB",
+				"domain": "www.asb.co.nz"
+			},
+			{	
+				"name": "Westpac",
+				"domain": "www.westpac.co.nz"
+			},
+			{
+                                "name": "ANZ",
+                                "domain": "www.anz.co.nz"
+                        },
+			{
+                                "name": "BNZ",
+                                "domain": "www.bnz.co.nz"
+                        },
+			 {
+                                "name": "SBSBank",
+                                "domain": "www.sbsbank.co.nz"
+                        },
+			{
+                                "name": "TSB Bank",
+                                "domain": "www.tsbbank.co.nz"
+                        }
+		]
+	},
+	{
+		"name": "NZ sites",
+		"linkname": "nzsites",
+		"sites": [
+			{
+				"name": "Trademe",
+				"domain": "www.trademe.co.nz"
+			},
+			{
+                                "name": "gpforums",
+                                "domain": "www.gpforums.co.nz"
+                        },
+			{
+                                "name": "geekzone",
+                                "domain": "www.geekzone.co.nz"
+                        },
+			{
+                                "name": "Metservce",
+                                "domain": "metservice.com"
+                        },
+			{
+                                "name": "Geonet",
+                                "domain": "geonet.org.nz"
+                        },
+			{
+                                "name": "Seek",
+                                "domain": "www.seek.co.nz"
+                        },
+			{
+                                "name": "AirNZ",
+                                "domain": "www.airnewzealand.co.nz"
+                        },
+			{
+                                "name": "NZ Post",
+                                "domain": "www.nzpost.co.nz"
+                        },
+			 {
+                                "name": "InternetNZ",
+                                "domain": "internetnz.nz"
+                        }
+
+
+
+
+
+
+		]
+	},
+	{	
+		"name": "NZ Hosting companies",
+		"linkname": "nzhosting",
+		"sites": [
+			{
+				"name": "ICONZ",
+				"domain": "iconz.net.nz"
+			},
+			{	
+				"name": "The Cloud",
+				"domain": "thecloud.net.nz"
+			},
+			{	
+				"name": "Sitehost",
+				"domain": "www.sitehost.co.nz"
+			},
+			{
+				"name": "RimuHosting",
+				"domain": "rimuhosting.com"
+			},
+			{
+				"name": "Webdrive",
+				"domain": "www.webdrive.co.nz"
+			},
+			{
+				"name": "Net24",
+				"domain": "www.net24.co.nz"
+			},
+			{
+				"name": "iforce",
+				"domain": "www.iforce.co.nz"
+			},
+			{
+				"name": "I want my name",
+				"domain": "iwantmyname.com"
+			}
+		]
+
+	},
+			
+
+	{
+		"name": "NZ Software/Tech Companies",
+                "linkname": "nztechcompanies",
+                "sites": [
+                        {
+                                "name": "OrionHealth",
+                                "domain": "www.orionhealth.com"
+                        },
+			{
+                                "name": "Vend",
+                                "domain": "www.vendhq.com"
+                        },
+			 {
+                                "name": "Enlighten Designs",
+                                "domain": "www.enlighten.co.nz"
+                        },
+			 {
+                                "name": "Vista Entertainment",
+                                "domain": "vista.co"
+                        },
+			 {
+                                "name": "Xero",
+                                "domain": "www.Xero.com"
+                        },
+			 {
+                                "name": "Intergen",
+                                "domain": "www.intergen.co.nz"
+                        },
+			 {
+                                "name": "Datacom",
+                                "domain": "datacom.co.nz"
+                        },
+			 {
+                                "name": "Silverstripe",
+                                "domain": "silverstripe.co.nz"
+                        },
+			 {
+                                "name": "Catalyst",
+                                "domain": "www.catalyst.net.nz"
+                        },
+			 {
+                                "name": "Spark Digital (gen-i)",
+                                "domain": "www.sparkdigital.co.nz"
+                        },
+			  {
+                                "name": "MEGA NZ",
+                                "domain": "mega.nz"
+                        }
+		]
+	},
+ 	{
+                "name": "NZ ISPs/Telecos",
+                "linkname": "nzisps",
+                "sites": [
+			{
+                                "name": "Spark",
+                                "domain": "www.spark.co.nz"
+                        },
+			{
+                                "name": "Vodafone",
+                                "domain": "www.vodafone.co.nz"
+                        },
+			{
+                                "name": "2Degrees",
+                                "domain": "www.2degreesmobile.co.nz"
+                        },
+			{
+                                "name": "Orcon",
+                                "domain": "www.Orcon.net.nz"
+                        },	
+			{
+                                "name": "Slingshot",
+                                "domain": "www.slingshot.co.nz"
+                        },
+			{
+                                "name": "bigpipe",
+                                "domain": "www.bigpipe.co.nz"
+                        },
+			{
+                                "name": "World Exchange",
+                                "domain": "www.wxc.co.nz"
+                        }
+			]
+	},
+	{
+	
+                "name": "NZ tech conferences",
+                "linkname": "nztechconferences",
+                "sites": [
+                        {
+                                "name": "Kiwicon",
+                                "domain": "www.kiwicon.org"
+                        },
+			{
+				"name": "Nethui",
+                                "domain": "nethui.org.nz"
+			},
+			 {
+                                "name": "NZNOG",
+                                "domain": "www.nznog.org"
+                        },
+			 {
+                                "name": "NZpyCon",
+                                "domain": "nz.pycon.org"
+                        },
+			 {
+                                "name": "Microsoft TechEd",
+                                "domain": "newzealand.msteched.com"
+                        } 
+		]
+	},
+	 {
+
+                "name": "NZ political parties",
+                "linkname": "nzpoliticalparties",
+                "sites": [
+                        {
+                                "name": "National",
+                                "domain": "www.national.org.nz"
+                        },
+			  {
+                                "name": "Labour",
+                                "domain": "www.labourparty.org.nz"
+                        },
+			  {
+                                "name": "Green Party",
+                                "domain": "www.greens.org.nz"
+                        },
+			  {
+                                "name": "NZ First",
+                                "domain": "nzfirst.org.nz"
+                        },
+			  {
+                                "name": "Maori Party",
+                                "domain": "maoriparty.org"
+                        },
+			  {
+                                "name": "ACT",
+                                "domain": "www.act.org.nz"
+                        },
+			  {
+                                "name": "United Future",
+                                "domain": "www.unitedfuture.org.nz"
+                        }
+		]
+	},
+	 {
+                "name": "NZ Retail sites",
+                "linkname": "nzretail",
+                "sites": [
+                        {
+                                "name": "Dick Smith Electronics",
+                                "domain": "www.dse.co.nz"
+                        },
+			{
+                                "name": "The Warehouse",
+                                "domain": "www.thewarehouse.co.nz"
+                        },
+			{
+                                "name": "Countdown",
+                                "domain": "www.countdown.co.nz"
+                        },
+			{
+                                "name": "Yellow Pages",
+                                "domain": "yellow.co.nz"
+                        },
+			{
+                                "name": "Briscoes",
+                                "domain": "www.briscoes.co.nz"
+                        },
+			{
+                                "name": "Mitre10",
+                                "domain": "www.mitre10.co.nz"
+                        },
+			{
+                                "name": "PBTech",
+                                "domain": "pbtech.co.nz"
+                        },
+			{
+                                "name": "1-day",
+                                "domain": "www.1-day.co.nz"
+                        },
+			{
+                                "name": "Grabone",
+                                "domain": "www.grabone.co.nz"
+                        },
+				{
+                                "name": "MightyApe",
+                                "domain": "www.mightyape.co.nz"
+                        },
+			{
+                                "name": "Noel Leeming",
+                                "domain": "www.noelleeming.co.nz"
+                        },
+			{
+                                "name": "PriceSpy",
+                                "domain": "pricespy.co.nz"
+                        },
+			{
+                                "name": "Harvey Norman",
+                                "domain": "www.harveynorman.co.nz"
+                        }
+		]
+	}
+			
+    ]
+}
