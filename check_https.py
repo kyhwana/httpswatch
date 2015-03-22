@@ -263,6 +263,7 @@ def set_site_template_data_from_info(site, info):
     if (not info.secure_connection_works or
         not info.can_load_https_page or
             info.https_redirects_to_http or
+            info.ssllabs_grade == "F" or
             info.mixed_content):
         status = "bad"
     elif (not info.http_redirects_to_https or
