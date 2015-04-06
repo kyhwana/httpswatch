@@ -140,7 +140,7 @@ def check_secure_connection(info):
     context.options |= getattr(ssl, "OP_NO_COMPRESSION", 0)
     context.verify_mode = ssl.CERT_REQUIRED
     context.check_hostname = True
-    context.load_verify_locations("moz-certs.pem")
+    context.load_verify_locations(capath="/etc/ssl/certs")
     secure_sock = context.wrap_socket(sock, server_hostname=info.domain)
     try:
         secure_sock.connect(addr_info[4])
