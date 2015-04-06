@@ -17,6 +17,10 @@
 		{
             "name": "New Zealand",
             "shortname": "nz"
-		}
+		},
+	{
+	    "name": "New Zealand Government",
+	    "shortname": "nzgovt"
+	}
     ]
 }
