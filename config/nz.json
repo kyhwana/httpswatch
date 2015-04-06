@@ -134,29 +134,57 @@
 				"name": "Kiwibank",
 				"domain": "www.kiwibank.co.nz"
 			},
+          {
+				"name": "Kiwibank IB login",
+				"domain": "www.ib.kiwibank.co.nz"
+			},
 			{
 				"name": "ASB",
 				"domain": "www.asb.co.nz"
+			},
+          {
+				"name": "ASB IB login",
+				"domain": "fnc.asbbank.co.nz"
 			},
 			{	
 				"name": "Westpac",
 				"domain": "www.westpac.co.nz"
 			},
+          {
+				"name": "Westpac IB Login",
+				"domain": "bank.westpac.co.nz"
+			},
 			{
                                 "name": "ANZ",
                                 "domain": "www.anz.co.nz"
                         },
+          {
+                                "name": "ANZ IB Login",
+                                "domain": "secure.anz.co.nz"
+                        },
 			{
                                 "name": "BNZ",
+                                "domain": "www.bnz.co.nz"
+                        },
+          {
+                                "name": "BNZ IB Login",
                                 "domain": "www.bnz.co.nz"
                         },
 			 {
                                 "name": "SBSBank",
                                 "domain": "www.sbsbank.co.nz"
                         },
+           {
+                                "name": "SBSBank IB Login",
+                                "domain": "secure.sbsbank.co.nz"
+                        },
 			{
                                 "name": "TSB Bank",
                                 "domain": "www.tsbbank.co.nz"
+                        },
+          {
+                                "name": "TSB Bank IB Login",
+                                "domain": "homebank.tsbbank.co.nz"
                         }
 		]
 	},
