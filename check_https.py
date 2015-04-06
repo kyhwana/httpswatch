@@ -168,7 +168,6 @@ def check_secure_connection(info):
         secure_sock.close()
     msg = "A verified TLS connection can be established. "
     if info.ssllabs_grade is not None:
-        grade_msg = "<a href=\"https://www.ssllabs.com/ssltest/analyze.html?d={}\">SSL Labs grade</a> is " + info.ss
         if info.ssllabs_grade == "F":
             good_connection.fail(grade_msg.format(info.domain))
             return
