@@ -66,9 +66,6 @@ class SiteInfo:
 
 class Check:
 
-    def __init__(self):
-        pass
-
     def succeed(self, desc):
         self.failed = False
         self.icon = "good"
@@ -108,6 +105,8 @@ def fetch_through_redirects(url):
             resp.close()
         # Check for sneaky <meta> redirects.
         for meta in META_XPATH(tree):
+            if meta.get("content") is None:
+                break
             m = re.match("0;\s*url=['\"](.+?)['\"]", meta.get("content"))
             if m is not None:
                 url = m.groups()[0]
@@ -169,7 +168,11 @@ def check_secure_connection(info):
         secure_sock.close()
     msg = "A verified TLS connection can be established. "
     if info.ssllabs_grade is not None:
-        msg += "<a href=\"https://www.ssllabs.com/ssltest/analyze.html?d={}\">SSL Labs grade</a> is " + info.ssllabs_grade + "."
+        grade_msg = "<a href=\"https://www.ssllabs.com/ssltest/analyze.html?d={}\">SSL Labs grade</a> is " + info.ss
+        if info.ssllabs_grade == "F":
+            good_connection.fail(grade_msg.format(info.domain))
+            return
+        msg += grade_msg
     else:
         msg += "(<a href=\"https://www.ssllabs.com/ssltest/analyze.html?d={}\">SSL Labs report</a>)"
     info.secure_connection_works = True
@@ -185,10 +188,7 @@ def check_https_page(info):
         if info.https_redirects_to_http:
             https_load.fail("The HTTPS site redirects to HTTP.")
             return
-        info.mixed_content = tree is not None and has_mixed_content(tree)
-        if info.mixed_content:
-            https_load.fail("The HTML page loaded over HTTPS has mixed content.")
-            return
+        info.can_load_https_page = True
         good_sts = info.new_check()
         sts = resp.headers.get("Strict-Transport-Security")
         if sts is not None:
@@ -203,6 +203,10 @@ def check_https_page(info):
                 good_sts.fail("<code>Strict-Transport-Security</code> header doesn't contain a <code>max-age</code> directive.")
         else:
             good_sts.fail("<code>Strict-Transport-Security</code> header is not set.")
+        info.mixed_content = tree is not None and has_mixed_content(tree)
+        if info.mixed_content:
+            https_load.fail("The HTML page loaded over HTTPS has mixed content.")
+            return
     except requests.Timeout:
         https_load.fail("Requesting HTTPS page times out.")
         return
@@ -212,7 +216,6 @@ def check_https_page(info):
     except requests.ConnectionError:
         https_load.fail("Connection error when connecting to the HTTPS site.")
         return
-    info.can_load_https_page = True
     https_load.succeed("A page can be successfully fetched over HTTPS.")
 
 
@@ -263,7 +266,6 @@ def set_site_template_data_from_info(site, info):
     if (not info.secure_connection_works or
         not info.can_load_https_page or
             info.https_redirects_to_http or
-            info.ssllabs_grade == "F" or
             info.mixed_content):
         status = "bad"
     elif (not info.http_redirects_to_https or
