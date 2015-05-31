@@ -81,7 +81,7 @@ def fetch_through_redirects(url):
         cont = False
         resp = requests.get(
             url,
-            verify="moz-certs.pem",
+            verify=True,
             headers={"User-Agent": USER_AGENT},
             timeout=10,
             stream=True,
