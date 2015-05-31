@@ -480,17 +480,7 @@
                                 "domain": "www.harveynorman.co.nz"
                         }
 		]
-	},
-      {
-                "name": "NZ Retail sites",
-                "linkname": "nzretail",
-                "sites": [
-                  {
-                              "name": 
-                  },
-                  }
-
-                  }
+	}
 			
     ]
 }
