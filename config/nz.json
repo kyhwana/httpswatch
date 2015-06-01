@@ -227,6 +227,10 @@
 			 {
                                 "name": "InternetNZ",
                                 "domain": "internetnz.nz"
+                        },
+          {
+                                "name": "FYI",
+                                "domain": "fyi.org.nz"
                         }
 
 
