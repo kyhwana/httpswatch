@@ -272,6 +272,10 @@
 				"name": "iforce",
 				"domain": "www.iforce.co.nz"
 			},
+          {
+				"name": "Freeparking",
+				"domain": "www.freeparking.co.nz"
+			},
 			{
 				"name": "I want my name",
 				"domain": "iwantmyname.com"
@@ -362,7 +366,20 @@
 			{
                                 "name": "World Exchange",
                                 "domain": "www.wxc.co.nz"
+                        },
+                  {
+                                "name": "Trustpower",
+                                "domain": "www.trustpower.co.nz"
+                        },
+                  {
+                                "name": "Callplus",
+                                "domain": "www.callplus.co.nz"
+                        },
+			{
+                                "name": "REANNZ",
+                                "domain": "reannz.co.nz"
                         }
+
 			]
 	},
 	{
@@ -376,7 +393,7 @@
                         },
 			{
 				"name": "Nethui",
-                                "domain": "nethui.org.nz"
+                                "domain": "2015.nethui.nz"
 			},
 			 {
                                 "name": "NZNOG",
@@ -384,12 +401,16 @@
                         },
 			 {
                                 "name": "NZpyCon",
-                                "domain": "nz.pycon.org"
+                                "domain": "nzpug.org"
                         },
 			 {
-                                "name": "Microsoft TechEd",
-                                "domain": "newzealand.msteched.com"
-                        } 
+                                "name": "Microsoft Ignite (TechEd)",
+                                "domain": "msignite.nz"
+                        },
+                  {
+                                "name": "NZ Gather",
+                                "domain": "gathergather.co.nz"
+                        }
 		]
 	},
 	 {
